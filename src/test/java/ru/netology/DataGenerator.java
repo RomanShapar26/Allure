@@ -29,7 +29,7 @@ public class DataGenerator {
         return new UserInfo(faker.address().city(),
                 faker.name().fullName(),
                 faker.phoneNumber().phoneNumber(),
-                LocalDate.now().plusDays(2).format(df),
-                LocalDate.now().plusDays(5).format(df));
+                LocalDate.now().plusDays(5).format(df),
+                LocalDate.now().plusDays(8).format(df));
     }
 }
